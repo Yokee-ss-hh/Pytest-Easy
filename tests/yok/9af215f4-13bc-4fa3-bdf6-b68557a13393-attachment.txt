@@ -1,0 +1,10 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST edgedriver version for 109.0.1518.78 Edge
+[32mINFO    [0m WDM:logger.py:11 About to download new driver from https://msedgedriver.azureedge.net/109.0.1518.78/edgedriver_win64.zip
+[32mINFO    [0m WDM:logger.py:11 Driver has been saved in cache [C:\Users\U6069615\.wdm\drivers\edgedriver\win64\109.0.1518]
+[32mINFO    [0m root:test_login.py:21 Navigated to the demoqa website
+[31m[1mERROR   [0m root:test_login.py:29 test_login_user method is failed : ('string indices must be integers',)
+Traceback (most recent call last):
+  File "C:\Users\U6069615\OneDrive - Clarivate Analytics\Desktop\YokTest\tests\test_login.py", line 22, in test_verify_web_page
+    if obj_tlp.get_title() == get_data["TC01"]["title"]:
+TypeError: string indices must be integers
